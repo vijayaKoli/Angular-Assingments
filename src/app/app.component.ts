@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MarvellousFirst';
-}
+  title = "Hello from first component";
+  updateData(name:string)
+  {
+    console.warn(name)
+  }
+} 
